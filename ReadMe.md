@@ -30,6 +30,8 @@ cp ./fix-iterm2-keys-profile.json ~/Library/Application\ Support/iTerm2/DynamicP
 
 As explained in [iTerm 2: How to set keyboard shortcuts to jump to beginning/end of line? Answer](https://stackoverflow.com/a/29403520/1092815):
 
+See [`./fix_zsh_keys.sh`](./fix_zsh_keys.sh)
+
 ```bash
 # Copy fixed keys to your dotfiles
 mkdir ~/dotfiles/
