@@ -6,7 +6,7 @@ Refer to [iTerm 2: How to set keyboard shortcuts to jump to beginning/end of lin
 
 I followed instructions, took the first suggestion each time and generated this iTerm2 profile.
 
-## How to
+## How to import dynamic profile
 
 ```bash
 git clone https://github.com/GabLeRoux/iterm2-macos-dynamic-profile.git
@@ -25,6 +25,22 @@ cp ./fix-iterm2-keys-profile.json ~/Library/Application\ Support/iTerm2/DynamicP
 ![Bulk Copy from Selected Profile...](./doc/bulk-copy-example.png)
 
 ![Copy Keys to your profile](./doc/copy-keys-to-new-profile.png)
+
+## ZSH Fix
+
+As explained in [iTerm 2: How to set keyboard shortcuts to jump to beginning/end of line? Answer](https://stackoverflow.com/a/29403520/1092815):
+
+```bash
+# Copy fixed keys to your dotfiles
+mkdir ~/dotfiles/
+cp ./fix_zsh_keys.sh ~/dotfiles/
+
+# Add entry to your ~/.zshrc
+echo 'source ~/dotfiles/fix_zsh_keys.sh' >> ~/.zshrc
+
+# Reload your .zshrc for changes to take effect
+source ~/.zshrc
+```
 
 ## Related documentation
 
