@@ -1,8 +1,12 @@
-# How to fix iterm2 MacOS keys
+# Fix iterm2 MacOS keys
+
+iTerm2 has terrible defaults concerning `option + arrow`, `cmd + arrow` + `backspace` or `delete`. Here's a fixed _dynamic profile_ to fix that.
 
 Refer to [iTerm 2: How to set keyboard shortcuts to jump to beginning/end of line? Answer](https://stackoverflow.com/a/29403520/1092815).
 
 I followed instructions, took the first suggestion each time and generated this iTerm2 profile.
+
+## How to
 
 ```bash
 git clone https://github.com/GabLeRoux/iterm2-macos-dynamic-profile.git
@@ -22,4 +26,11 @@ cp ./fix-iterm2-keys-profile.json ~/Library/Application\ Support/iTerm2/DynamicP
 
 ![Copy Keys to your profile](./doc/copy-keys-to-new-profile.png)
 
+## Related documentation
+
 See [iterm2 dynamic profiles documentation](https://www.iterm2.com/documentation-dynamic-profiles.html) for more details.
+
+## License
+
+[MIT](LICENSE.md) © [Gabriel Le Breton](https://gableroux.com)
+
