@@ -26,7 +26,7 @@ cp ./fix-iterm2-keys-profile.json ~/Library/Application\ Support/iTerm2/DynamicP
 
 ![Copy Keys to your profile](./doc/copy-keys-to-new-profile.png)
 
-## ZSH Fix
+## ZSH bindkey fix + redo
 
 As explained in [iTerm 2: How to set keyboard shortcuts to jump to beginning/end of line? Answer](https://stackoverflow.com/a/29403520/1092815):
 
