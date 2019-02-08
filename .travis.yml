@@ -1,5 +1,5 @@
 language: bash
 before_script:
-  - apt-get install -y jq
+  - sudo apt-get install -y jq
 script:
   - cat fix-iterm2-keys-profile.json | jq '.'
