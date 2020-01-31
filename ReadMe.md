@@ -13,7 +13,12 @@ I followed instructions, took the first suggestion each time and generated this 
 ```bash
 git clone https://github.com/GabLeRoux/iterm2-macos-dynamic-profile.git
 cd iterm2-macos-dynamic-profile
+
+# copy the json profile to dynamic profiles folder
 cp ./fix-iterm2-keys-profile.json ~/Library/Application\ Support/iTerm2/DynamicProfiles
+
+# or create a symlink for easier updates
+ln -s $(pwd)/fix-iterm2-keys-profile.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/
 ```
 
 * Open iTerm2 Preferences -> Profiles
